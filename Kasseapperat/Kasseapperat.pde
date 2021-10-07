@@ -1,3 +1,4 @@
+//definere og initierer 3 ting
 float belobUdenMoms = 100;
 float belobMedMoms = 0;
 String navn = "Jens";
@@ -15,7 +16,8 @@ void draw(){
   println ("Beløb uden moms: ", belobUdenMoms);
   println ("Beløb med moms: ", beregnMoms(belobUdenMoms));
   println ("Momsbeløbet udgør: ", differencenIMoms());
-  
+
+//sætter datoen for kviteringen
   print (day(),"/",month(),year(),hour(),":",minute());
 }
 
